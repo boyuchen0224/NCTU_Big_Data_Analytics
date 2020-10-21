@@ -26,7 +26,7 @@ Use **K-means** and **DBSCAN** algorithm to analyze pickup DataFrame and drop-of
 Compare to **Borough of New York City**
 , we conclude  that the **Manhattan is the most pickups and drop offs region**.
 
-![](https://i.imgur.com/WBFThGY.png =50%x)
+![](https://i.imgur.com/WBFThGY.png)
 
 ## Q2 : When are the peak hours and off-peak hours for taking taxi ?
 
