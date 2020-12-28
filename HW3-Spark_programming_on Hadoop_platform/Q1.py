@@ -1,15 +1,16 @@
 # coding=utf-8
 from pyspark.context import SparkContext
 
-sc = SparkContext("local")
-text = sc.textFile("./Youvegottofindwhatyoulove.txt")
-
 """
 Q1
 1. Show the top 30 most frequent occurring words and their average
 occurrences in a sentence.
 2. According to the result, what are the characteristics of these words?
 """
+
+sc = SparkContext("local")
+text = sc.textFile("./Youvegottofindwhatyoulove.txt")
+
 counts = (
     text.map(lambda x: x.lower())
     .flatMap(lambda x: x.split(" "))
